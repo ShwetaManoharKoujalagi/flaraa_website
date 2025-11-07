@@ -1,185 +1,150 @@
+<!DOCTYPE html>
 <html lang="en">
+<head>
 <meta charset="UTF-8">
 <title>ME</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-body {font-family:"Times New Roman", serif}
-h1,h2,h3,h4,h5,h6 {font-family:serif; letter-spacing:5px}
+  body {font-family: "Times New Roman", serif;}
+  h1, h2, h3, h4, h5, h6 {font-family: serif; letter-spacing: 5px;}
 </style>
+</head>
 <body>
 
-<!-- Navigation (Sits on top) -->
+<!-- Navigation Bar -->
 <div class="w3-top w3-bar w3-white w3-padding w3-card w3-wide">
-<a href="#home" class="w3-bar-item w3-button" style="font-size: 30px;">Flaraa</a>
-
-<!-- Right-sided navbar links. Hide them on small screens -->
-<div class="w3-right w3-hide-small">
-<a href="#about" class="w3-bar-item w3-button">About</a>
-<a href="#menu" class="w3-bar-item w3-button">Safety & Security</a>
-<a href="#about_us" class="w3-bar-item w3-button">About Us</a>
-<a href="#contact" class="w3-bar-item w3-button">Contact</a>
-</div>
+  <a href="#home" class="w3-bar-item w3-button" style="font-size: 30px;">ME</a>
+  <div class="w3-right w3-hide-small">
+    <a href="#about" class="w3-bar-item w3-button">About</a>
+    <a href="#menu" class="w3-bar-item w3-button">Safety & Security</a>
+    <a href="#about_us" class="w3-bar-item w3-button">About Us</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
 </div>
 
 <!-- Start Content -->
 <div id="home" class="w3-content">
 
-<!-- Image in Display Container -->
-<div class="w3-padding-top-48">
-<div class="w3-display-container">
-<br><img src="group.jpg" alt="Catering" style="width:100%; height: 300px;">
+  <!-- Hero Section -->
+  <div class="w3-padding-top-48">
+    <div class="w3-display-container">
+      <img src="images/group.jpg" alt="Catering" style="width:100%; height:300px;">
+      <div class="w3-display-bottomleft w3-padding-small w3-opacity w3-hide-small">
+        <h2>---</h2>
+      </div>
+    </div>
+  </div>
 
-<div class="w3-display-bottomleft w3-padding-small w3-opacity w3-hide-small">
-<h2>---</h2>
-</div>
+  <h5 class="w3-center">Innovating since Nov 2024</h5>
 
-</div>
-</div>
-<h5 class="w3-center">Innovating since Nov 2024</h5>
-<!-- About -->
-<div id="about" class="w3-padding-top-64">
-<div class="w3-row">
+  <!-- About / Profile Section -->
+  <div id="about" class="w3-padding-top-64">
+    <div class="w3-row">
+      <div class="w3-col l6 m6 w3-padding-large">
+        <img src="images/profile1.jpg" class="w3-round w3-image w3-opacity-min" alt="Profile" style="width:100%">
+      </div>
+      <div class="w3-col l6 m6 w3-padding-large">
+        <h1 class="w3-center">Profile</h1>
+        <p class="w3-large">
+          Our platform is a social media website where individuals can create personalized profiles and write detailed self-descriptions, similar to Wikipedia. Share your story, achievements, interests, and more in a dedicated space that truly represents you. Connect, discover, and explore others’ profiles in a community built for self-expression and meaningful interactions.
+        </p>
+        <p class="w3-large">
+          Users have to allow this website to continuously access their location. So, wherever the users travel, they carry their profile with them. Others will be able to see their profile description who are within 100m and who know their profile name.
+        </p>
+      </div>
+    </div>
+  </div>
 
-<div class="w3-col l6 m6 w3-padding-large">
-<img src="profile1.jpg" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:100%">
-</div>
+  <!-- Messaging Section -->
+  <div id="messaging" class="w3-padding-top-64">
+    <div class="w3-row">
+      <div class="w3-col l6 m6 w3-padding-large">
+        <img src="images/texting.jpg" class="w3-round w3-image w3-opacity-min" alt="Messaging" style="width:100%">
+      </div>
+      <div class="w3-col l6 m6 w3-padding-large">
+        <h1 class="w3-center">Messaging</h1>
+        <p class="w3-large">
+          Our social media platform enables individuals to connect instantly through seamless text messaging. Stay in touch with friends, family, and new connections with real-time chats, private conversations, and group messaging. Share thoughts, updates, and moments effortlessly in a secure and user-friendly environment.
+        </p>
+      </div>
+    </div>
+  </div>
 
-<div class="w3-half w3-padding-large">
-<h1 class="w3-center">Profile</h1>
-<p class="w3-large">
-Our platform is a social media website where individuals can create personalized profiles and write detailed self-descriptions, similar to Wikipedia. Share your story, achievements, interests, and more in a dedicated space that truly represents you. Connect, discover, and explore others’ profiles in a community built for self-expression and meaningful interactions.</p>
-<p class="w3-large">
-<!-- Users have to allow this website to continuously access their location. So, wherever the users travel, they carry their profile with them. Others will be able to see their profile description who are within 100m and who know their profile name.</p>   -->
+  <!-- Posting Section -->
+  <div id="posting" class="w3-padding-top-64">
+    <div class="w3-row">
+      <div class="w3-col l6 m6 w3-padding-large">
+        <img src="images/post.jpg" class="w3-round w3-image w3-opacity-min" alt="Posting" style="width:100%">
+      </div>
+      <div class="w3-col l6 m6 w3-padding-large">
+        <h1 class="w3-center">Posting</h1>
+        <p class="w3-large">
+          Our social media platform allows individuals to share stunning 3D photos, bringing their moments to life like never before. Capture, upload, and explore immersive 3D images that add depth and dimension to your storytelling. Connect with others and experience a new way of sharing memories in an interactive and visually captivating space.
+        </p>
+      </div>
+    </div>
+  </div>
 
+  <!-- Safety & Security -->
+  <div id="menu" class="w3-padding-top-64">
+    <h1 class="w3-center">Safety & Security</h1>
+    <div class="w3-row">
+      <div class="w3-col l6 m6 w3-padding-large">
+        <h4>General</h4>
+        <p class="w3-text-grey">
+          Options like restricted, hide, block, and selected user visibility are available.
+          Selected user visibility means users can select who can view their profile (e.g., only .edu, @company.com, or everyone).
+        </p>
 
+        <h4>Secured Login</h4>
+        <p class="w3-text-grey">
+          Password hashing is provided to protect users' data from data theft.
+        </p>
 
-<div id="about" class="w3-padding-top-64">
-<div class="w3-row">
+        <h4>SQL Injection</h4>
+        <p class="w3-text-grey">
+          Implemented with securities to ensure data integrity and prevent SQL injection attacks when handling database queries.
+        </p>
 
-<div class="w3-col l6 m6 w3-padding-large">
-<img src="texting.jpg" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:100%">
-</div>
+        <h4>Report an Issue</h4>
+        <p class="w3-text-grey">
+          A “Report an issue” section is available to prevent and respond to security threats.
+        </p>
+      </div>
+      <div class="w3-col l6 m6 w3-padding-large">
+        <img src="images/safety.jpg" class="w3-round w3-image w3-opacity-min" alt="Safety" style="width:100%">
+      </div>
+    </div>
+  </div>
 
-<div class="w3-half w3-padding-large">
-<h1 class="w3-center">Messaging</h1>
-<p class="w3-large">
-Our social media platform enables individuals to connect instantly through seamless text messaging. Stay in touch with friends, family, and new connections with real-time chats, private conversations, and group messaging. Share thoughts, updates, and moments effortlessly in a secure and user-friendly environment.</p>
+  <!-- About Us -->
+  <div id="about_us" class="w3-padding-top-64">
+    <h1 class="w3-center">About Us</h1>
+    <div class="w3-row">
+      <div class="w3-col l6 m6 w3-padding-large">
+        <span style="font-size:20px;">Shweta M. K.</span><br>
+        <span class="w3-text-grey">
+          First Semester <br> MS in Computer Engineering, SJSU
+        </span><br><br>
+      </div>
+      <div class="w3-col l6 m6 w3-padding-large">
+        <img src="images/about_us.jpg" class="w3-round w3-image w3-opacity-min" alt="About Us" style="width:100%">
+      </div>
+    </div>
+  </div>
 
-</div>
+  <!-- Contact -->
+  <div id="contact" class="w3-container w3-padding-64">
+    <h1>Contact</h1>
+    <p class="w3-text-blue-grey w3-large">
+      <b>One Washington Square, San Jose, CA, 95192</b>
+    </p>
+    <p>You can also contact me by email: <a href="mailto:shwethha10@gmail.com">shwethha10@gmail.com</a></p>
+    <img src="images/map.jpg" class="w3-image" style="width:100%; height:300px;">
+  </div>
 
-</div>
-</div>
-
-<div id="about" class="w3-padding-top-64">
-<div class="w3-row">
-
-<div class="w3-col l6 m6 w3-padding-large">
-<img src="post.jpg" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:100%">
-</div>
-
-<div class="w3-half w3-padding-large">
-<h1 class="w3-center">Posting</h1>
-<p class="w3-large">
-<!--   xyz xyz xyz.</p>    -->
-
-</div>
-
-</div>
-</div>
-
-<!-- Menu -->
-<div id="menu" class="w3-padding-top-64">
-<h1 class="w3-center">Safety & Security</h1>
-<div class="w3-row">
-
-<div class="w3-col l6 m6 w3-padding-large">
-
-<h4>General</h4>
-<span class="w3-text-grey">
-Options like restricted, hide, block and selected user visibility is available.
-Selected user visibility means users can select who can view their profile like .edu or @company.com or everyone</span><br><br>
-
-<h4>Secured Login</h4>
-<span class="w3-text-grey">
-Password hashing is provided to protect users' data from data theft.</span><br><br>
-
-<h4>SQL Injection</h4>
-<span class="w3-text-grey">
-Implemented with securities to ensure data integrity and prevent SQL injection attacks when handling database queries.</span><br><br>
-
-<h4>Report and Issue</h4>
-<span class="w3-text-grey">
-We will provide “Report an issue” section to prevent security threats.</span>
-</div>
-
-<div class="w3-col l6 m6 w3-padding-large">
-<img src="safety.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
-</div>
-
-</div>
-
-
-<!--- <div class="w3-container w3-text-grey">
-<p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
-</div>   --->
-
-</div>
-
-<div id="about_us" class="w3-padding-top-64">
-<h1 class="w3-center">About Us</h1>
-<div class="w3-row">
-
-<div class="w3-col l6 m6 w3-padding-large">
-
-<!--
-<span style="font-size: 20px"> XYZ </span><br>
-<span class="w3-text-grey">
-XYZ <br> XYZ </span><br><br>   Add profession here -->
-
-<!-- <h4>Belgian Waffle</h4>
-<p class="w3-text-grey">
-Vanilla flavored batter with malted flour 7.50</p><br>
-
-<h4>Scrambled eggs</h4>
-<p class="w3-text-grey">
-Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-
-<h4>Blueberry Pancakes</h4>
-<p class="w3-text-grey">
-With syrup, butter and lots of berries 8.50</p>    -->
-
-</div>
-
-<div class="w3-col l6 m6 w3-padding-large">
-<img src="about_us.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
-</div>
-
-</div>
-
-<!--
-
-<div class="w3-container w3-text-grey">
-<p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
-</div>   -->
-
-</div>
-
-<!-- Contact -->
-<!--
-<div id="contact" class="w3-container w3-padding-64">
-<h1>Contact</h1>
-
-<p class="w3-text-blue-grey w3-large">
-<b>Add address here</b></p>
-<p>Add contact here</p>
-
-<img src="about_us.jpg" class="w3-image" style="width:100%; height: 300px">
-</div>  
-
-<!-- End Content -->
-</div>
--->
+</div> <!-- End Content -->
 
 </body>
 </html>
