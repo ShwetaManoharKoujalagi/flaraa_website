@@ -95,7 +95,7 @@ Our platform is a social media website where individuals can create personalized
 
 <div class="w3-half w3-padding-large">
 <h1 class="w3-center">Messaging</h1>
-<p class="w3-large" style="font-family: 'Brush Script MT', cursive;">
+<p class="w3-large">
 Our social media platform enables individuals to connect instantly through seamless text messaging. Stay in touch with friends, family, and new connections with real-time chats, private conversations, and group messaging. Share thoughts, updates, and moments effortlessly in a secure and user-friendly environment.</p>
 
 </div>
