@@ -1,6 +1,6 @@
 <html>
 <meta charset="UTF-8">
-<title>ME</title>
+<title>Flaraa</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6 {font-family: 'Brush Script MT', cursive; letter-spacing:5px}
 
 <!-- Navigation (Sits on top) -->
 <div class="w3-top w3-bar w3-white w3-padding w3-card w3-wide">
-<a href="#home" class="w3-bar-item w3-button" style="font-size: 39px; color: #8E403A; font-family: 'Brush Script MT', cursive;">Coming Soon</a>
+<a href="#home" class="w3-bar-item w3-button" style="font-size: 48px; color: #8E403A; font-family: 'Brush Script MT', cursive;">FLARAA</a>
 
 <!-- Right-sided navbar links. Hide them on small screens -->
 
