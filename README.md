@@ -52,10 +52,7 @@ Our platform is a social media website where individuals can create personalized
 <p class="w3-large">
 <!-- Users have to allow this website to continuously access their location. So, wherever the users travel, they carry their profile with them. Others will be able to see their profile description who are within 100m and who know their profile name.</p>   -->
 
-</div>
 
-</div>
-</div>
 
 <div id="about" class="w3-padding-top-64">
 <div class="w3-row">
