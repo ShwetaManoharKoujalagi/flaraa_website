@@ -104,6 +104,66 @@ Our social media platform enables individuals to connect instantly through seaml
 </div>
 
 
+<div id="menu" class="w3-padding-top-64">
+<h1 class="w3-center">Safety & Security</h1>
+<div class="w3-row">
+
+<div class="w3-col l6 m6 w3-padding-large">
+
+<h4>General</h4>
+<span class="w3-text-grey">
+Options like restricted, hide, block and selected user visibility is available.
+Selected user visibility means users can select who can view their profile like .edu or @company.com or everyone</span><br><br>
+
+<h4>Secured Login</h4>
+<span class="w3-text-grey">
+Password hashing is provided to protect users' data from data theft.</span><br><br>
+
+<h4>SQL Injection</h4>
+<span class="w3-text-grey">
+Implemented with securities to ensure data integrity and prevent SQL injection attacks when handling database queries.</span><br><br>
+
+<h4>Report and Issue</h4>
+<span class="w3-text-grey">
+We will provide “Report an issue” section to prevent security threats.</span>
+</div>
+
+<div class="w3-col l6 m6 w3-padding-large">
+<img src="safety.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+</div>
+
+</div>
+</div>
+
+<div id="about_us" class="w3-padding-top-64">
+<h1 class="w3-center">About Us</h1>
+<div class="w3-row">
+
+<div class="w3-col l6 m6 w3-padding-large">
+
+<span style="font-size: 20px">Shweta M. K.</span><br>
+<span class="w3-text-grey">
+First Semester <br> MS in Computer Engineering, SJSU</span><br><br>
+</div>
+
+<div class="w3-col l6 m6 w3-padding-large">
+<img src="about_us.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+</div>
+
+</div>
+</div>
+
+<div id="contact" class="w3-container w3-padding-64">
+<h1>Contact</h1>
+
+<p class="w3-text-blue-grey w3-large">
+<b>One Washington Square, San Jose, CA, 95192</b></p>
+<p>You can also contact me by email shwethha10@gmail.com</p>
+
+<img src="map.jpg" class="w3-image" style="width:100%; height: 300px">
+</div> 
+
+
 <div class="counter" id="visitCount">
     <i class="fas fa-eye"></i> Loading...
   </div>
