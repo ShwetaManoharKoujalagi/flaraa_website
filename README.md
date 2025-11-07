@@ -59,7 +59,7 @@ h1,h2,h3,h4,h5,h6 {font-family: 'Brush Script MT', cursive; letter-spacing:5px}
 <!-- Image in Display Container -->
 <div class="w3-padding-top-48">
 <div class="w3-display-container">
-<br><img src="images/group.jpg" alt="Catering" style="width:100%; height: 300px;">
+<br><img src="group.jpg" alt="Catering" style="width:100%; height: 300px;">
 
 <div class="w3-display-bottomleft w3-padding-small w3-opacity w3-hide-small">
 <h2>---</h2>
@@ -73,7 +73,7 @@ h1,h2,h3,h4,h5,h6 {font-family: 'Brush Script MT', cursive; letter-spacing:5px}
 <div class="w3-row">
 
 <div class="w3-col l6 m6 w3-padding-large">
-<img src="images/profile1.jpg" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:100%">
+<img src="profile1.jpg" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:100%">
 </div>
 
 <div class="w3-half w3-padding-large">
@@ -90,7 +90,7 @@ Our platform is a social media website where individuals can create personalized
 <div class="w3-row">
 
 <div class="w3-col l6 m6 w3-padding-large">
-<img src="images/texting.jpg" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:100%">
+<img src="texting.jpg" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:100%">
 </div>
 
 <div class="w3-half w3-padding-large">
